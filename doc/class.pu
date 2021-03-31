@@ -1,0 +1,13 @@
+@startuml クラス図
+
+class Field{
+    - Ball ball
+    - List<Obstacle> obstacles
+}
+interface Obstacle{}
+class Wall{}
+class Mountain{}
+
+class Ball{}
+
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+object 壁
+object 山
+object ボール
+object フィールド
+
+フィールド o-- 壁
+フィールド o-- 山
+フィールド o-- ボール
+@enduml
